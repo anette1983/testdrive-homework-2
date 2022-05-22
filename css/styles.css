@@ -15,6 +15,7 @@
 }
 
 body {
+  font-size: 14px;
   font-family: var(--main-font);
   letter-spacing: 0.03em; 
   line-height: 1.7;
@@ -227,6 +228,7 @@ body {
   color: var(--main-light);
 }
 
+
 .footer-address a {
   font-style: normal;
 }
@@ -234,6 +236,11 @@ body {
 .footer-address .link:hover,
 .footer-address .link:focus {
   color: var(--accent-color);
+}
+
+.footer-address a[href="https://goo.gl/maps/VmCHTrUJY1LjRGFh9"]:hover,
+.footer-address a[href="https://goo.gl/maps/VmCHTrUJY1LjRGFh9"]:hover {
+  color: var(--main-light);
 }
 
 
